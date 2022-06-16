@@ -12,4 +12,5 @@ contract HelloName{
     function setName(string memory _name) public {
         userName = _name;
     }
+    
 }
