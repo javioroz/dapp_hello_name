@@ -43,8 +43,8 @@ module.exports = {
     //
     development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      // port: 8545,            // Standard Ethereum port (default: none)
-      port: 7545,             // Ganache default port
+      port: 8545,            // Standard Ethereum port (default: none)
+      // port: 7545,             // Ganache default port
       network_id: "*",       // Any network (default: none)
      },
     //
@@ -82,8 +82,8 @@ module.exports = {
     // timeout: 100000
   },
 
-  contracts_directory: './contracs/', // solidity contracts path
-	contract_build_directory: '/assets/contracts_abi/', 
+  contracts_directory: './contracts/', // solidity contracts path
+	contract_build_directory: './assets/contracts_abi/', 
   
   // Configure your compilers
   compilers: {
