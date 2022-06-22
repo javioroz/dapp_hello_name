@@ -1,0 +1,13 @@
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/dapp_hello_name
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/assets/contracts_abi/HelloWorld.json
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/hello-cat.jpg
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/orosus/devs/dapp_hello_name/build/linux/x64/debug/bundle/data/flutter_assets/.env

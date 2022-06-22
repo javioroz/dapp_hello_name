@@ -1,0 +1,18 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /snap/flutter/current/usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/snap/flutter/current/usr/bin/ld: warning: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crt1.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0008002
+/snap/flutter/current/usr/bin/ld: warning: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crt1.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/snap/flutter/current/usr/bin/ld: warning: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crt1.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/snap/flutter/current/usr/bin/ld: warning: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crti.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010002
+/snap/flutter/current/usr/bin/ld: warning: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crti.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0010001
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crti.o: unable to initialize decompress status for section .debug_line
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crti.o: unable to initialize decompress status for section .debug_line
+/usr/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../x86_64-linux-gnu/crti.o: file not recognized: File format not recognized
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
