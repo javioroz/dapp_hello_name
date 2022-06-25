@@ -3,6 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'pages/helloUI.dart';
+import 'pages/homeTabs.dart';
 
 void main() async {
   await dotenv.load(fileName: ".env");
@@ -10,14 +11,30 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  static final ValueNotifier<ThemeMode> themeNotifier =
+      ValueNotifier(ThemeMode.light);
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Hello World',
-      home: HelloUI(),
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Colors.green[800],
+        appBarTheme: AppBarTheme(
+          //elevation: 0,
+          backgroundColor: Colors.green[800],
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.green[800])),
+        ),
+      ),
+      darkTheme: ThemeData.dark(),
+      //home: HelloUI(),
+      home: HomeTabs(),
     );
   }
 }
